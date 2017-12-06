@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="new_game_label">New Game</string>
+    <string name="exit_label">Exit</string>
+
+    <string name="settings_label">Settings…</string>
+    <string name="settings_title">Sudoku settings</string>
+
+    <string name="new_game_title">Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+
+    <string name="game_title">Game</string>
+    <string name="no_moves_label">No moves</string>
+    <string name="keypad_title">Keypad</string>
+
+    <string name="new_board_label">New Board</string>
+
+    <string name="continue_label">Continue</string>
+    <string name="main_title">Android Sudoku</string>
+    <string name="usermanual_label">User Manual</string>
+    <string name="language_label">Language</string>
+    <string name="usermanual">
+        User Manual:
+        The objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contains all of the digits from 1 to 9.
+        The puzzle setter provides a partially completed grid. If you do a mistake and a square is colored red, there is not possible to choose a number in that square. You can change a chosen number anytime,
+        and youre done when the entire board is colored dark green.
+    </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="welcome">Welcome to my Sudoku game!</string>
+    <string name="error">"Error, board must be exactly 81 numbers with zeroes!"</string>
+    <string name="custom_label">Custom</string>
+    <string name="inputNumber">Input board, 81 numbers with zeroes!</string>
+    <string name="cancel">Cancel</string>
+    <string name="drawer_label">Swipe right to open</string>
+
+</resources>

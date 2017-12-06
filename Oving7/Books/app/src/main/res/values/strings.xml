@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Books</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="colors">
+        <item name="green">Green</item>
+        <item name="blue">Blue</item>
+        <item name="gray">Gray</item>
+    </string-array>
+    <string-array name="color_values">
+        <item name="green">0xff00ff00</item>
+        <item name="blue">0xff2a79ff</item>
+        <item name="gray">0xff888888</item>
+    </string-array>
+</resources>

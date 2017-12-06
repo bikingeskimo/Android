@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+
+    <string name="navigation_drawer_open">Åpne navigasjonsskuff</string>
+    <string name="navigation_drawer_close">Steng navigasjonsskuff</string>
+
+    <string name="action_settings">Innstillinger</string>
+
+    <string name="new_game_label">Nytt Spill</string>
+    <string name="exit_label">Avslutt</string>
+
+    <string name="settings_label">Innstillinger…</string>
+    <string name="settings_title">Sudoku Innstillinger</string>
+
+    <string name="new_game_title">Vanskelighetsgrad</string>
+    <string name="easy_label">Lett</string>
+    <string name="medium_label">Middels</string>
+    <string name="hard_label">Vanskelig</string>
+
+    <string name="game_title">Spill</string>
+    <string name="no_moves_label">Ingen flere muligheter</string>
+    <string name="keypad_title">Tastatur</string>
+
+    <string name="new_board_label">Nytt brett</string>
+
+    <string name="continue_label">Fortsett</string>
+    <string name="main_title">Android Sudoku</string>
+    <string name="usermanual_label">Bruksanvisning</string>
+    <string name="language_label">Språk</string>
+    <string name="usermanual">
+        Bruksanvisning:
+        Sudoku er et tallspill som går ut på å plassere sifre i rutemønstre, som består av 9×9 ruter som igjen er delt inn i ni mindre bokser på 3×3 ruter. Oppgaven går ut på å plassere sifrene 1 til 9 slik at alle
+        de loddrette og vannrette radene inneholder sifrene 1 til 9 en gang (slik at også hver 3×3-boks inneholder alle sifrene én gang).
+        Hvis en rute blir farget rødt har du gjort en feil slik at ingen nummer kan velges i den røde ruten. Du kan når som helst bytte tall i hvilken som helst rute, og du er ferdig når hele brettet lyser mørkegrønt.
+    </string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="welcome">Velkommen til mitt sudokuspill!</string>
+    <string name="error">"Feil, brettet må ha nøyaktig 81 verdier med nuller!"</string>
+    <string name="custom_label">Egendefinert</string>
+    <string name="inputNumber">Legg inn brett, 81 siffer med nuller!</string>
+    <string name="cancel">Avbryt</string>
+    <string name="drawer_label">Sveip høyre for å starte</string>
+
+</resources>

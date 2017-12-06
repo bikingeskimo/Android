@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Oving2</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Adder</string>
+    <string name="multiply">Multipliser</string>
+    <string name="answer">Svar:</string>
+    <string name="upperLimit">Øvre grense</string>
+    <string name="correct">Riktig!</string>
+    <string name="wrong">Feil. Riktig svar er </string>
+    <string name="hint">skriv tall</string>
+    <string name="forste">5</string>
+    <string name="andre">3</string>
+    <string name="addSvar">8</string>
+    <string name="multSvar">15</string>
+</resources>

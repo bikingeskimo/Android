@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Oving 4</string>
+    <string name="menu_string_back">Previous</string>
+    <string name="menu_string_next">Next</string>
+</resources>

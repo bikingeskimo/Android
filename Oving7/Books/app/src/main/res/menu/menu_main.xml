@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/settings_menu_item" android:title="Settings"
+        android:orderInCategory="103" android:showAsAction="always" />
+    <item android:id="@+id/books_menu_item" android:title="Books"
+        android:orderInCategory="102" android:showAsAction="always" />
+    <item android:id="@+id/authors_menu_item" android:title="Authors"
+        android:orderInCategory="101" android:showAsAction="always" />
+</menu>

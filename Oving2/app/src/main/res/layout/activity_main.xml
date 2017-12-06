@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="prosjekt.oving2.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_gravity="top|center_horizontal"
+        android:text="5"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|right" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_gravity="top|right"
+        android:text="3"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|left" />
+
+    <EditText
+        android:id="@+id/svarText"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_gravity="bottom|right"
+        android:hint="@string/addSvar"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|left"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/upperlimitText"
+        android:layout_width="100dp"
+        android:layout_height="108dp"
+        android:layout_gravity="bottom|left"
+        android:hint="100"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|right"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="39dp"
+        android:layout_gravity="bottom|right"
+        android:text="@string/answer"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|left" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_gravity="bottom|right"
+        android:text="@string/upperLimit"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|right"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:text="@string/multiply"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|center_horizontal" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_main" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:text="@string/add"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|center_horizontal" />
+
+
+</android.support.design.widget.CoordinatorLayout>

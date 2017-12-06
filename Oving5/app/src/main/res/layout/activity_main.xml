@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tallspill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roger.oving5.MainActivity">
+
+    <Button
+        android:text="New Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_newgame"
+        android:layout_below="@+id/numberInput"
+        android:layout_alignEnd="@+id/name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+
+        android:id="@+id/creditCard"
+        android:hint="Credit Card Number"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_send"
+        android:layout_below="@+id/numberInput"
+        android:layout_alignStart="@+id/numberInput" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/name"
+        android:hint="Name"
+        android:layout_marginTop="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/numberInput"
+        android:layout_alignEnd="@+id/creditCard" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+
+        android:id="@+id/numberInput"
+        android:hint="Guess a number"
+        android:layout_below="@+id/creditCard"
+        android:layout_alignStart="@+id/creditCard" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/response_view"
+        android:layout_above="@+id/creditCard"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginBottom="41dp"
+        android:layout_alignEnd="@+id/name"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif" />
+</RelativeLayout>

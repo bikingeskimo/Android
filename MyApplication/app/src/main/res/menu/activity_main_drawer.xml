@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/difficulty"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/new_game_title" />
+        <item
+            android:id="@+id/new_game"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/new_game_label" />
+        <item
+            android:id="@+id/new_board"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/new_board_label" />
+        <item
+            android:id="@+id/usermanual_button"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/usermanual_label" />
+        <item
+            android:id="@+id/language_button"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="@string/language_label" />
+        <item
+            android:id="@+id/exit_button"
+            android:icon="@android:drawable/btn_dialog"
+            android:title="@string/exit_label" />
+    </group>
+
+</menu>
